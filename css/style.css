@@ -1,0 +1,157 @@
+
+html{
+    background:  url("../office2.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+
+}
+
+body{
+    margin: none;
+    /*background-color: rgb(98, 98, 207,.2);*/
+    background-size: cover;
+    height: 100%;
+    width: 100wv;
+    
+}
+.container{
+    width: 1140px;
+    margin: auto;
+   
+}
+.firstInput{
+    text-align: center;
+    margin-top: 200px;
+    padding: 40px;
+    flex-direction: column;
+    
+   
+}
+.input{
+    width: 300px;
+    height: 30px;
+}
+.loginButton{
+    background-color: lightblue;
+    width: 100px;
+    padding: 8px;
+    margin: 10px;
+}
+.keypad{
+    
+    text-align: center;
+    width: 450px;
+    height: 550px;
+    background-image: url("../safe.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: silver;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.keys{
+    font-size: larger;
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    background-color: #857e7e;
+    border-radius: 50%;
+    margin: 7px;
+    position: relative;
+}
+.keys:hover{
+    background-color: #5e5b5b;
+}
+
+.numbers{
+    text-align: center;
+    display: inline;
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    right:40%;
+}
+.pressed{
+    background-color: #5e5b5b;
+}
+label{
+    color: black;
+    font-weight: bolder; 
+}
+
+table{
+    width: 50%;
+    background-color: inherit;
+    
+}
+.infoTable{
+    margin: auto;
+    padding: 12px;
+    background-color: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#register{
+    width: 50%;
+    margin-left: 20%;
+}
+.info{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    color: black
+}
+table{
+   border-collapse: collapse;
+}
+tr,td{
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    
+    
+}
+th{
+    color: white;
+    font-size: larger;
+    
+}
+tr:nth-child(even){
+   background-color: rgb(120, 196, 221,.5);
+}
+tr:nth-child(odd){
+    background-color: rgba(80, 141, 161, 0.5);
+ }
+.edit{
+    position: relative;
+}
+ .edit-button{
+     
+     background-color: inherit;
+     border: none;
+     
+ }
+
+ .delete-button{
+    background-color: inherit;
+    border: none;
+}
+.double-check{
+    background-color: inherit;
+    border: none;
+    display: none;
+}
+
